@@ -1,3 +1,12 @@
-Apollo AI NARC API Documentation
-=======================================
+Documentation
+=============
+
 https://goapollo.ai
+
+Contents
+--------
+
+.. toctree::
+
+   usage
+   api
