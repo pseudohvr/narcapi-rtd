@@ -1,7 +1,6 @@
 NARC API
 ===
 
-
 .. _installation:
 
 Installation
