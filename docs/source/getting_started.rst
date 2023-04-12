@@ -36,8 +36,8 @@ Let's make sure everything is working as it should. Let's try to hit the `mappin
 
 .. code-block:: console
 
-   >>> input_text = "In the campaign we observed, BlackByte operators gained initial access by exploiting the ProxyShell vulnerabilities (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207) present on the customer’s Microsoft Exchange server."
-   >>> narcapi.mappings(input_text)
+   >>> text = "In the campaign we observed, BlackByte operators gained initial access by exploiting the ProxyShell vulnerabilities (CVE-2021-34473, CVE-2021-34523, CVE-2021-31207) present on the customer’s Microsoft Exchange server."
+   >>> narcapi.mappings(text)
    [{'created_by': 'apollo_ai', 'analysis_date': ... }]
 
 You should receive a json response from the API that shows our text has been mapped to `T1190`. 
