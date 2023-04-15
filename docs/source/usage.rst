@@ -73,7 +73,7 @@ Similar to the ``mappings_bulk`` endpoint, the ``chains_bulk`` endpoint takes a 
 Insights
 --------
 
-The ``insights`` endpoints are for the retrieval of ``mappings`` or ``chains`` objects that have been previously recorded across our user base. **We do not currently store mappings or chains by user.** As mentioned previously, only those objects that **do not** have a source value of ``free text`` and **do** contain ``https://`` (which is required upon submission) will be returned via these endpoint. This is to maintain a relative amount of privacy for those users who may submit internal or non-public text to the API. 
+The ``insights`` endpoints are for the retrieval of ``mappings`` or ``chains`` objects that have been previously recorded across our user base. **We do not currently store mappings or chains by individual user.** As mentioned previously, only those objects that **do not** have a source value of ``free text`` and **do** contain ``https://`` (which is required upon submission) will be returned via these endpoint. This is to maintain a relative amount of privacy for those users who may submit internal or non-public text to the API. 
 
 The core intent behind the ``insights`` endpoint is to only return technique mappings or chains that are available publicly, which is indicating by an active URL. As we assess how our users interact with the API, this functionality may be updated but will maintain that core intent.
 
