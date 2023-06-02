@@ -1,6 +1,10 @@
 Getting Started
 ===============
 
+**Important Note**
+
+This package was only thouroughly tested for Python 3.9.x. There are reported issues using Python 3.10.x, so please be sure to use 3.9.x when interacting with the NARCAPI package.
+
 Installation
 ------------
 
